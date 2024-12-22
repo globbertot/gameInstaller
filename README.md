@@ -13,7 +13,7 @@ This Python script simplifies creating a game installation setup for Lutris. It 
 - Lutris installed on your system
 
 
-## Usage from source
+## Usage
 1. Clone or get the latest release.
 2. Run the file you downloaded or if you are running from source, run it using Python:
    ```bash
