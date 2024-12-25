@@ -23,7 +23,7 @@ def createDir(dirName):
 def generateYAMLTemplate(gameName, hasInstaller, fixedName):
     """Generates the YAML to install the game"""
     if hasInstaller:
-        return f""" name: "{gameName}"
+        return f"""name: "{gameName}"
             game_slug: {fixedName.lower()}
             version: GameInstaller 0.0
             slug: {fixedName.lower()}_installer
